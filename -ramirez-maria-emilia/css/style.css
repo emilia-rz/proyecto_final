@@ -1,0 +1,87 @@
+/* line 1, ../sass/style.scss */
+* { margin: 0; padding: 0; }
+
+/* line 5, ../sass/style.scss */
+body { background-color: indianred; background-image: url(https://pbs.twimg.com/media/ESG04RuXkAAIpmp.jpg); background-position: absolute; background-size: cover; background-repeat: no-repeat; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+/* line 14, ../sass/style.scss */
+header { height: 140px; background-color: none; position: relative; }
+
+/* line 19, ../sass/style.scss */
+header a { text-decoration: none; color: black; margin-right: auto; }
+
+/* line 24, ../sass/style.scss */
+nav { width: 70%; position: absolute; right: 10px; top: 10px; }
+
+/* line 31, ../sass/style.scss */
+nav ul { margin: 0; padding-left: 0; list-style: none; display: flex; }
+
+/* line 38, ../sass/style.scss */
+nav li { flex-grow: 1; flex-shrink: 1; }
+
+/* line 43, ../sass/style.scss */
+nav a { display: block; text-align: center; padding: 10px; letter-spacing: .1rem; font-size: 25px; text-decoration: none; color: white; text-transform: uppercase; font-family: 'Londrina Sketch', cursive; font-weight: bold; }
+
+/* line 56, ../sass/style.scss */
+nav a:hover { border-radius: 2%; }
+
+/* line 61, ../sass/style.scss */
+nav ul ul { display: none; }
+
+/* line 65, ../sass/style.scss */
+nav ul ul a { padding: 10px; text-align: left; background: #d0d1da71; }
+
+/* line 71, ../sass/style.scss */
+nav ul li:hover > ul { display: block; }
+
+/* line 75, ../sass/style.scss */
+.desplegable { color: black; }
+
+/* line 79, ../sass/style.scss */
+h1 { text-decoration: none; color: white; font-family: 'Londrina Sketch', cursive; font-weight: bold; font-size: 60px; margin-left: 2%; margin-top: 2%; }
+
+/*section{ width: 1320px; margin-top:6%; margin-right: 2%; margin-bottom: 2%; margin-left: 1%; border-radius: 2%; min-height: 60vh; background-color: rgba(68, 51, 221, 0.294)    
+}*/
+/* line 102, ../sass/style.scss */
+.section { width: 1320px; margin-top: 4%; margin-right: 2%; margin-bottom: 0%; margin-left: 1%; border-radius: 2%; min-height: 60vh; background-color: rgba(68, 51, 221, 0.294); }
+
+/* line 112, ../sass/style.scss */
+.sectionFormulario { width: 1300px; margin-top: 2%; margin-right: 2%; margin-bottom: 2%; margin-left: 2%; border-radius: 2%; min-height: 60vh; background-color: rgba(241, 236, 227, 0.637); }
+
+/* line 123, ../sass/style.scss */
+.sectionFan { width: 1300px; margin-top: 1%; margin-bottom: 2%; margin-right: 8%; margin-left: 8%; border-radius: 2%; min-height: 60vh; }
+
+/* line 132, ../sass/style.scss */
+.sectionColumnas { width: 1300px; margin-top: 6%; margin-right: 2%; margin-bottom: 2%; margin-left: 1%; border-radius: 2%; min-height: 60vh; background-color: rgba(68, 51, 221, 0.294); }
+
+/* line 142, ../sass/style.scss */
+.sectionLucas { width: 1320px; margin-top: 6%; margin-right: 2%; margin-bottom: 2%; margin-left: 1%; border-radius: 2%; min-height: 60vh; background-color: rgba(68, 51, 221, 0.294); }
+
+/* line 153, ../sass/style.scss */
+.sectionMartin { width: 1320px; margin-top: 6%; margin-right: 2%; margin-bottom: 2%; margin-left: 1%; border-radius: 2%; min-height: 60vh; background-color: rgba(68, 51, 221, 0.294); }
+
+/* line 164, ../sass/style.scss */
+.sectionMigue { width: 1320px; margin-top: 6%; margin-right: 2%; margin-bottom: 2%; margin-left: 1%; border-radius: 2%; min-height: 60vh; background-color: rgba(68, 51, 221, 0.294); }
+
+/* line 175, ../sass/style.scss */
+.sectionViqui { width: 1320px; margin-top: 6%; margin-right: 2%; margin-bottom: 2%; margin-left: 1%; border-radius: 2%; min-height: 60vh; background-color: rgba(68, 51, 221, 0.294); }
+
+/* line 186, ../sass/style.scss */
+.fondoVideo { margin-right: 2%; margin-left: 1%; }
+
+/* line 190, ../sass/style.scss */
+footer { background-color: #060562e8; height: 60px; border-radius: 4%; font-family: 'Londrina Sketch', cursive; font-weight: bold; color: white; text-align: right; text-decoration: none; }
+
+/* line 202, ../sass/style.scss */
+footer ul li { display: inline-block; font-family: 'Londrina Sketch', cursive; font-weight: bold; color: white; }
+
+/* line 209, ../sass/style.scss */
+.copy { text-align: left; }
+
+/* line 214, ../sass/style.scss */
+.sectionFormulario { font-size: 120%; font-family: 'Londrina Sketch'; font-weight: bold; text-decoration: none; color: white; text-align: center; background-color: #230b839a; border-radius: 2%; }
+
+/* line 228, ../sass/style.scss */
+h2 { text-align: center; font-family: 'Londrina Sketch', cursive; font-weight: bold; text-decoration: none; color: black; margin-top: 4%; margin-bottom: 2%; font-size: xx-large; background-color: rgba(231, 229, 240, 0.794); margin-left: 40%; margin-right: 40%; margin-top: 4%; margin-bottom: 2%; border-radius: 10%; animation-duration: 2s; animation-name: aparecer; }
+
+/*# sourceMappingURL=style.css.map */
